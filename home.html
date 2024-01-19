@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Igreja Grande Familia Feliz</title>
-    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/header.css">
 </head>
 <body>
     <header>
@@ -12,22 +12,29 @@
        <div >
         <img id="logo" src="./Img/Logo.jpg" alt="">
        </div>
-
-        <div class="home">
-
-            <a href="">
-                <li> Home </li>
-            </a>
-
-            <a href="">
-                <li> Ministerios </li>
-            </a>
-            
-            <a href="">
-                <li> Calendario </li>
-            </a>
-
         </div>
+
+        <ul class="home ">
+
+            <li>
+                <a href="">Home</a>
+            </li>
+
+            <li class="dropdown">
+                <a href="">Ministerios</a>
+
+                <div class="dropdown-menu">
+                    <a href="">infantil</a>
+                    <a href="">Musica</a>
+                    <a href="">Comunicação</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="">Calendario</a>
+            </li>
+
+        </ul>
         
 
     </header>
